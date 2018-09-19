@@ -1,10 +1,12 @@
-package com.qinxiaoguai.library;
+package com.dysen.library;
 
 import android.support.annotation.NonNull;
 import android.text.TextUtils;
 
 /**
- * Created by 秦小怪 on 2017/8/1.
+ * @email dy.sen@qq.com
+ * created by dysen on 2018/9/19 - 上午10:38
+ * @info
  */
 public class StringUtils {
     /**

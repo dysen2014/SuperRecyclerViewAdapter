@@ -1,4 +1,4 @@
-package com.qinxiaoguai.library;
+package com.dysen.library;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -25,10 +25,11 @@ import android.widget.TextView;
 import java.util.List;
 
 /**
- * 通用的RecyclerView的ViewHolder
+ *
+ * @email dy.sen@qq.com
+ * created by dysen on 2018/9/19 - 上午10:38
+ * @info 通用的RecyclerView的ViewHolder
  * 采用链式调用
- * <p>
- * Created by 秦小怪 on 2017/8/1.
  */
 public class SuperRecyclerHolder extends RecyclerView.ViewHolder {
     private Context mCtx;

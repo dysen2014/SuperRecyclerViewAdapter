@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.qinxiaoguai.demo">
+    package="com.dysen.demo">
 
   <application
       android:allowBackup="true"
@@ -16,10 +16,8 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <activity android:name=".Btn1LayoutActivity" />
-    <activity android:name=".Btn2LayoutActivity" />
-    <activity android:name=".Btn3LayoutActivity" />
-    <activity android:name=".Btn4LayoutActivity" />
+    <activity android:name=".BaseTypeActivity" />
+    <activity android:name=".MoreTypeActivity" />
   </application>
 
 </manifest>

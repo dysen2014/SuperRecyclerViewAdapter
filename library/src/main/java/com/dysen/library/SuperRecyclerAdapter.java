@@ -1,4 +1,4 @@
-package com.qinxiaoguai.library;
+package com.dysen.library;
 
 import android.content.Context;
 import android.support.annotation.LayoutRes;
@@ -9,7 +9,9 @@ import android.view.ViewGroup;
 import java.util.List;
 
 /**
- * Created by 秦小怪 on 2017/8/10.
+ * @email dy.sen@qq.com
+ * created by dysen on 2018/9/19 - 上午10:38
+ * @info
  */
 public abstract class SuperRecyclerAdapter<T> extends RecyclerView.Adapter<SuperRecyclerHolder> {
     private Context mCtx;

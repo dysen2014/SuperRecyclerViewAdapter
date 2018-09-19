@@ -7,7 +7,7 @@
     >
 
   <Button
-      android:id="@+id/btn_1"
+      android:id="@+id/btn_base_type"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:text="button1 线性布局-垂直滚动"
@@ -15,34 +15,10 @@
       />
 
   <Button
-      android:id="@+id/btn_2"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:text="button2 线性布局-水平滚动"
-      android:textAllCaps="false"
-      />
-
-  <Button
-      android:id="@+id/btn_3"
+      android:id="@+id/btn_more_type"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:text="button3 线性布局-多类型"
-      android:textAllCaps="false"
-      />
-
-  <Button
-      android:id="@+id/btn_4"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:text="button4 简单网格布局"
-      android:textAllCaps="false"
-      />
-
-  <Button
-      android:id="@+id/btn_5"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:text="button5 网格布局-多类型"
       android:textAllCaps="false"
       />
 

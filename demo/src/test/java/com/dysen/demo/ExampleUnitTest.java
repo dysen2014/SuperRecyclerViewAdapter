@@ -1,4 +1,4 @@
-package com.qinxiaoguai.demo;
+package com.dysen.demo;
 
 import org.junit.Test;
 

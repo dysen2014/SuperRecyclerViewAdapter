@@ -1,4 +1,4 @@
-package com.qinxiaoguai.demo;
+package com.dysen.library;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -19,6 +19,6 @@ import static org.junit.Assert.*;
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.qinxiaoguai.demo", appContext.getPackageName());
+        assertEquals("com.qinxiaoguai.library.test", appContext.getPackageName());
     }
 }
