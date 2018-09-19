@@ -1,11 +1,10 @@
 
 
-# 注意，目前还没有封装完成，还在开发中ing...
+# 注意，目前封装基本完成，...
 
 
 # 相关blogs
-[可能是迄今最完美的RecyclerView的Adapter封装（一）](http://www.jianshu.com/p/618d115c92d6)
-[http://www.jianshu.com/p/618d115c92d6](http://www.jianshu.com/p/618d115c92d6)
+[可能是迄今最完美的RecyclerView的Adapter封装（一）])
 
 # SuperRecyclerAdapter
 Android RecyclerView万能Adapter，实现原理巧妙，代码量非常小，功能却很强大，使用非常简单
@@ -25,5 +24,5 @@ Android RecyclerView万能Adapter，实现原理巧妙，代码量非常小，�
         };
 
 ```
-上边的简单的代码就是一个new就创建了一个兼容各种情况的Adapter，是不是很强大，而且兼容多布局，demo就暂时还没写
+上边的简单的代码就是一个new就创建了一个兼容各种情况的Adapter，是不是很强大，而且兼容多布局，demo已修改完成
 
