@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(new Intent(MainActivity.this, Btn2LayoutActivity.class));
                 break;
             case R.id.btn_3:
+                startActivity(new Intent(MainActivity.this, Btn3LayoutActivity.class));
                 break;
             case R.id.btn_4:
                 startActivity(new Intent(MainActivity.this, Btn4LayoutActivity.class));

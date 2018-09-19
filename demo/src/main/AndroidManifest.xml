@@ -18,6 +18,7 @@
     </activity>
     <activity android:name=".Btn1LayoutActivity" />
     <activity android:name=".Btn2LayoutActivity" />
+    <activity android:name=".Btn3LayoutActivity" />
     <activity android:name=".Btn4LayoutActivity" />
   </application>
 

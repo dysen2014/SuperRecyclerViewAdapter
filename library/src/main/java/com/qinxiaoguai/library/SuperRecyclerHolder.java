@@ -22,6 +22,8 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import java.util.List;
+
 /**
  * 通用的RecyclerView的ViewHolder
  * 采用链式调用
@@ -239,6 +241,11 @@ public class SuperRecyclerHolder extends RecyclerView.ViewHolder {
         return setText(viewId, content, "");
     }
 
+    public SuperRecyclerHolder setText(@IdRes List<Integer> viewIds, List<String> contents) {
+
+        return setText(viewIds, contents, "");
+    }
+
     /**
      * 该方法使用频率非常高，而且大多时候，是从网络加载的数据，所有可能会出现空指针异常
      * StringUtils.obtainNoNullText转换以后，确保不会出现空指针异常，网络请求的数据不需要再次进行判空操作
@@ -248,6 +255,18 @@ public class SuperRecyclerHolder extends RecyclerView.ViewHolder {
     public SuperRecyclerHolder setText(@IdRes int viewId, String content, String defaultContent) {
         TextView textView = retrieveView(viewId);
         textView.setText(StringUtils.obtainNoNullText(content, defaultContent));
+        return this;
+    }
+
+    public SuperRecyclerHolder setText(@IdRes List<Integer> viewIds, List<String> contents, String defaultContent) {
+        int count = 0;
+        TextView textView = null;
+        count = viewIds.size() < contents.size() ? viewIds.size() : contents.size();
+
+        for (int i = 0; i < count; i++) {
+            textView = retrieveView(viewIds.get(i));
+            textView.setText(StringUtils.obtainNoNullText(contents.get(i), defaultContent));
+        }
         return this;
     }
 
